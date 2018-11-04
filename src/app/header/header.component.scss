@@ -1,5 +1,33 @@
-h2{
+h1{
   font-size: 81px;
-  font: normal normal normal 48px/1.4em 'rozha one',serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  letter-spacing: 10px;
+  font-family: ostrich-light, sans-serif;
   color: #314E5D;
+}
+
+.navbar{
+  white-space: nowrap;
+  display: inline-block;
+  overflow: visible;
+  border-top: solid 1px rgba(214, 214, 214, 1);
+  border-bottom: solid 1px rgba(214, 214, 214, 1);
+  font: normal normal normal 11px/1.4em lulo-clean-w01-one-bold,sans-serif;
+  color: #314E5D;
+  width: 825px;
+  top: 52px;
+  height: 21px;
+  padding: 0;
+  text-align: right;
+}
+
+.mat-button{
+  line-height: 0;
+
+}
+
+.active{
+  color: #87A4B2;
 }

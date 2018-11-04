@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+//@import '../../node_modules/bootstrap/scss/bootstrap';
+@font-face {
+  font-family: ostrich-light;
+  src: url(../assets/font/ostrich_sans_light/ostrich-light.svg) format("svg");
+  src: url(../assets/font/ostrich_sans_light/ostrich-light.eot );
+  src: url(../assets/font/ostrich_sans_light/OstrichSans-Light.otf) format("opentype");
+}
+
+body{
+  font-family: sans-serif;
+  background-image: url("../assets/background.webp");
+  width: 1903px;
+  height: 836px;
+}

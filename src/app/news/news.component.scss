@@ -1,0 +1,24 @@
+span{
+  left: 467px;
+  width: 401px;
+  position: absolute;
+  min-height: 28px;
+  pointer-events: none;
+  top: 166px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #314E5D;
+  font: normal normal normal 31px/1.4em ostrich-light,serif;
+}
+
+img,span{
+  margin-left: calc((100% - 980px) * 0.5);
+}
+
+img{
+  left: 486px;
+  position: absolute;
+  top: 215px;
+  width: 364px;
+  height: 364px;
+}
